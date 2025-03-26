@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Peter Abahim Idiku">
     <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-[#2d2d2d] text-white font-sans">
+<body class="bg-[#2d2d2d] text-white font-sans overflow-x-hidden">
 
     <!-- NAV BAR -->
 
-    <div class="bg-[#6f5942]">
+    <div class="bg-[#6f5942] h-[950px] md:h-[730px]">
 
 
-    <nav class="flex justify-between md:p-5 md:px-24 px-2  items-center bg-[#63503d]">
+    <nav class="flex justify-between md:p-2 md:px-24 px-2  items-center bg-[#63503d] md:fixed z-10 ">
+      <div class="md:flex items-center gap-[760px]">
         <div>
             <span class="md:text-[40px] text-[30px] font-semibold text-[#cc892c]"><em>DevPTB.</em></span>
         </div>
 
         <div class=" md:flex hidden gap-8 text-1xl h text-[#fff]">
             <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href=""><span class="text-[#cc892c]">Home</span></a>
-            <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="resume.html">Resume</a>
-            <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="">Portfolio</a>
-            <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="">Blog</a>
-            <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="">Contact</a>
+            <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="#resume">Resume</a>
+            <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="#Portfolio">Portfolio</a>
+            <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="#blog">Blog</a>
+            <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="#contact">Contact</a>
         </div>
+      </div>
 
         <div class="flex md:hidden">
             <button id="hamburger-bnt" class="inline-flex mr-2 rounded-md text-white hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500">
@@ -36,11 +39,11 @@
             </button>
 
         </div>
-    </nav>
+    </nav> <br>
 
     <!-- HOME -->
 
-    <div class="flex flex-col-reverse  lg:flex-row justify-between items-center gap-8 mb-16 p-10 sm:px-40">
+    <div class="flex flex-col-reverse  lg:flex-row justify-between items-center gap-8 mb-16 p-10 sm:px-40 md:relative top-16">
 
 
 <div class="lg:w-1/2 opacity-100 animate-fade-from-top">
@@ -53,7 +56,7 @@
 
   <h3 class=" text-lg font-medium mb-4"> <div class="border-2 border-[#cc892c] border-solid w-[5%] h-1"></div> A Creative Freelancer & Full Stack Developer</h3>
 
-  <a href="resume.html"><button class="bg-[#cc892c] hover:bg-[#ad7628] rounded-2xl p-3 hover:ease-in-out hover:scale-105 transition-transform duration-700">KNOW MORE</button></a>
+  <a href=""><button class="bg-[#cc892c] hover:bg-[#ad7628] rounded-2xl p-3 hover:ease-in-out hover:scale-105 transition-transform duration-700 w-[300px] md:w-auto">KNOW MORE</button></a>
   
 </div>
 <div
@@ -63,16 +66,242 @@
   <img
     src="img/peter.jpg"
     alt="Photo Of Peter"
-    class="md:w-[400px] h-[500px] max-w-lg mx-auto rounded-lg shadow-md "
-  />
+    class="md:w-[400px] h-[500px] max-w-lg mx-auto rounded-lg shadow-md "/>
 </div>
 </div>
+    </div> <br>
+    
+
+
+
+   <!-- RESUME -->
+
+   <section class="bg-[#242323] md:px-28" id="resume">
+
+
+   <div class="md:flex gap-3 p-4">
+    <img class="w-full md:w-[400px]" src="img/photo2.jpg" alt=""><br>
+    <div class=" md:w-[790px]">
+    <span class="font-semibold text-1xl"> <div class="border-2 border-[#cc892c] border-solid w-[3%] h-1"></div>ABOUT ME</span>
+    <h1 class="text-3xl font-semibold">Who Am I</h1><br>
+    <p>
+        My name is Peter Idiku, I'm a Freelancer Full Stack Developer based in Jos Nigeria, and I'm
+        very passionate and dedicated to my work with 1 year experience as a professional Full Stack Developer.
+        I have acquired the skills necessary to build great and premium websites.
+    </p>
+     <br>
+
+    <p>Let's build together and solve the real world problem.</p> <br><br>
+
+    <div class="md:flex-col bg-[#2d2d2d] p-3">
+        <div>
+        <span><b>HTML5</b></span><br>
+        <i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bxs-star-half' style='color:#cc892c' ></i>
+        </div><br>
+
+        <div>
+            <span><b>Css3</b></span><br>
+            <i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bxs-star-half' style='color:#cc892c' ></i>
+            </div>
+
+            <div><br>
+                <span><b>JavaScript</b></span><br>
+                <i class='bx bxs-star' style='color:#cc892c'  ></i><i class='bx bx-star' style='color:#cc892c' ></i><i class='bx bx-star' style='color:#cc892c' ></i><i class='bx bx-star' style='color:#cc892c' ></i><i class='bx bx-star' style='color:#cc892c' ></i>
+                </div><br>
+    </div><br>
+
+   <a href=""><button class="bg-[#cc892c] hover:bg-[#ad7628] rounded-2xl p-3 hover:ease-in-out hover:scale-105 transition-transform duration-700 w-[400px] md:w-auto">DOWNLOAD CV</button></a>
+
+</div>
+
+
+</div>
+
+</section> <br><br>
+
+
+
+
+
+    <!-- PORTFOLIO -->
+
+    <section class="bg-[#2d2d2d] md:px-28" id="Portfolio">
+
+    <div class="p-5">
+
+      <span class="font-semibold text-1xl"> <div class="border-2 border-[#cc892c] border-solid w-[3%] md:w-[2%] h-1"></div>MY SERVICES</span>
+
+      <h1 class="text-3xl font-semibold">What Can I Do</h1><br>
+
+      <!--  -->
+
+      <div class="md:flex gap-4">
+
+      <div class="bg-[#1f1f1f] p-5 w-[390px]">
+        <div class="text-wrap text-center">
+
+          <i class='bx bxs-pencil text-6xl' style='color:#cc892c'  ></i><br><br>
+          <h1 class="font-semibold text-2xl">Creative Design</h1><br>
+
+          <p class="w-[350px] text-center">
+            Bringing ideas to life with creativity and precision. Explore my world of stunning designs, 
+            where innovation meets aesthetics.
+          </p>
+        </div>
+      </div><br>
+
+      <div class="bg-[#1f1f1f] p-5 w-[390px]">
+        <div class="text-wrap text-center">
+
+          <i class='bx bxs-flag-alt text-6xl' style='color:#cc892c'  ></i><br><br>
+          <h1 class="font-semibold text-2xl">Branding</h1><br>
+
+          <p class="w-[350px] text-center">
+            Crafting impactful brand identities that leave a lasting impression.
+             Let’s build a brand that stands out and speaks volumes!
+          </p>
+        </div>
+      </div><br>
+
+      <div class="bg-[#1f1f1f] p-5 w-[390px]">
+        <div class="text-wrap text-center">
+
+          <i class='bx bx-laptop text-6xl' style='color:#cc892c'  ></i><br><br>
+          <h1 class="font-semibold text-2xl">User Interface</h1><br>
+
+          <p class="w-[350px] text-center">
+            Creating visually stunning and user-friendly interfaces 
+            that make every interaction effortless and engaging.
+          </p>
+        </div>
+      </div>
+
+      </div><br>
+
+      <!-- ROW2 -->
+
+
+      <div class="md:flex gap-4">
+
+        <div class="bg-[#1f1f1f] p-5 w-[390px]">
+          <div class="text-wrap text-center">
+  
+            <i class='bx bxs-briefcase text-6xl' style='color:#cc892c'  ></i><br><br>
+            <h1 class="font-semibold text-2xl">User Experience</h1><br>
+  
+            <p class="w-[350px] text-center">
+              Enhancing digital experiences with intuitive, 
+              user-centered designs that make every interaction seamless and meaningful.
+            </p>
+          </div>
+        </div><br>
+  
+        <div class="bg-[#1f1f1f] p-5 w-[390px]">
+          <div class="text-wrap text-center">
+  
+            <i class='bx bx-code-alt text-6xl' style='color:#cc892c'  ></i><br><br>
+            <h1 class="font-semibold text-2xl">Clean Code</h1><br>
+  
+            <p class="w-[350px] text-center">
+              Writing clean, efficient, and maintainable code, because great software starts with a solid foundation.
+            </p>
+          </div>
+        </div><br>
+  
+        <div class="bg-[#1f1f1f] p-5 w-[390px]">
+          <div class="text-wrap text-center">
+  
+            <i class='bx bx-support text-6xl' style='color:#cc892c'  ></i><br><br>
+            <h1 class="font-semibold text-2xl">Fast Support</h1><br>
+  
+            <p class="w-[350px] text-center">
+              Reliable, responsive, and always ready. A fast support you can count on when it matters most.
+            </p>
+          </div>
+        </div>
+  
+        </div>
+
+        
+
+
+    
+      <!-- <h1 class="text-xl md:text-xl font-semibold p-2"><div class="border-2 border-[#cc892c] border-solid w-[4%] md:w-[2%] h-1"></div>MY SERVICES</h1><br> -->
+      
+
+  </div>
+
+</section>
+
+<section class="bg-[#2d2d2d]" id="blog">
+
+</section>
+
+
+
+
+
+    <!-- CONTACT ME -->
+
+    <section class="bg-[#2d2d2d]" id="contact">
+
+    <div class="p-5 md:flex" >
+      <div class=" bg-[#cc892c] md:w-[350px] p-16  md:h-[490px] md:relative top-11 left-36">
+
+        <h1 class="text-2xl font-semibold">Contact Me</h1><br>
+        <div class="flex gap-5 items-center">
+        <i class='bx bx-current-location text-3xl' style='color:#ffffff'  ></i><span>Jos Nigeria</span>
+      </div><br>
+
+      <div class="flex gap-5 items-center">
+          <i class='bx bx-envelope text-3xl'></i><span>peteridiku@gmail.com</span>
+        </div><br>
+
+        <div class="flex gap-5 items-center ">
+          <i class='bx bx-phone text-3xl'></i><span>+234 9037923637</span>
+        </div><br>
+
+
+        <div>
+         <a href="https://x.com/pero4l?s=21" target="_blank"><i class='bx bxl-twitter text-3xl' style='color:#ffffff' ></i></a>
+         <a href="https://www.facebook.com/share/15AmyiozrQ/?mibextid=wwXIfr" target="_blank"><i class='bx bxl-facebook-square text-3xl'></i></a>
+         <a href="https://www.linkedin.com/in/peter-idiku-911178338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class='bx bxl-linkedin-square text-3xl'></i></a>
+         <a href="https://www.instagram.com/dev_ptb?igsh=aDV4OXJhbzVsNW5z&utm_source=qr" target="_blank"><i class='bx bxl-instagram-alt text-3xl'></i></a>
+         <a href="https://api.whatsapp.com/send/?phone=2349018555631&text&type=phone_number&app_absent=0" target="_blank"><i class='bx bxl-whatsapp text-3xl' style='color:#ffffff' ></i></a>
+         <a href="https://github.com/Pero4l" target="_blank"><i class='bx bxl-github text-3xl' style='color:#ffffff' ></i></a>
+        </div>
+
+      </div>
+      
+      <div class="bg-white text-gray-800 p-5 md:w-[950px]">
+        <div class="md:relative left-[400px] md:py-6">
+      <h1 class="text-3xl font-semibold md:text-5xl">Get in Touch</h1>
+      <span class="md:text-2xl">Feel free to drop us a message below!</span><br><br><br>
+      <input class=" h-[50px] w-[300px] md:w-[350px] p-2  border-black border-solid border-2" type="text" placeholder="Your Name"><br><br>
+      <input class=" h-[50px] w-[300px] md:w-[350px] p-2 border-black border-solid border-2" type="email" name="" id="" placeholder="Your Email"><br><br>
+      <textarea class=" h-[130px] w-[300px] md:w-[350px] p-2 border-black border-solid border-2" name="" id="" placeholder="Type your message here...."></textarea><br><br>
+      <button class="bg-[#cc892c] text-white hover:bg-[#ad7628] rounded-2xl p-3 px-7 text-2xl hover:ease-in-out hover:scale-105 transition-transform duration-700 w-[300px] md:w-auto">Submit</button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
 
 
 <!-- FOOTER -->
 
 
-<footer class="bg-[#2d2d2d] text-2xl p-8 text-center">
+<footer class="bg-[#222222] text-2xl p-8 text-center">
+
+  <div>
+    <a href="https://x.com/pero4l?s=21" target="_blank"><i class='bx bxl-twitter text-4xl' style='color:#ffffff' ></i></a>
+    <a href="https://www.facebook.com/share/15AmyiozrQ/?mibextid=wwXIfr" target="_blank"><i class='bx bxl-facebook-square text-4xl'></i></a>
+    <a href="https://www.linkedin.com/in/peter-idiku-911178338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class='bx bxl-linkedin-square text-4xl'></i></a>
+    <a href="https://www.instagram.com/dev_ptb?igsh=aDV4OXJhbzVsNW5z&utm_source=qr" target="_blank"><i class='bx bxl-instagram-alt text-4xl'></i></a>
+    <a href="https://api.whatsapp.com/send/?phone=2349018555631&text&type=phone_number&app_absent=0" target="_blank"><i class='bx bxl-whatsapp text-4xl' style='color:#ffffff' ></i></a>
+    <a href="https://github.com/Pero4l" target="_blank"><i class='bx bxl-github text-4xl' style='color:#ffffff' ></i></a>
+   </div>
   &copy; 2025 Peter Abahim Idiku
 </footer>
 
