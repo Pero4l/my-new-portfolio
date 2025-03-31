@@ -12,16 +12,16 @@
 
     <!-- NAV BAR -->
 
-    <div class="bg-[#6f5942] h-[950px] md:h-[730px]">
+    <div class="bg-[#6f5942] h-[950px] md:h-[730px] md:w-[1148px] lg:w-auto ">
 
 
-    <nav class="flex justify-between md:p-2 md:px-24 px-2  items-center bg-[#63503d] md:fixed z-10 ">
+    <nav class="flex justify-between md:p-2 md:px-24 px-2 md:gap-[820px] items-center bg-[#63503d] md:fixed z-10 ">
       <div class="md:flex items-center gap-[760px]">
         <div>
             <span class="md:text-[40px] text-[30px] font-semibold text-[#cc892c]"><em>DevPTB.</em></span>
         </div>
 
-        <div class=" md:flex hidden gap-8 text-1xl h text-[#fff]">
+        <div class=" hidden lg:flex  gap-8 text-1xl text-[#fff]">
             <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href=""><span class="text-[#cc892c]">Home</span></a>
             <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="#resume">Resume</a>
             <a class="hover:text-[#cc892c] ease-in-out hover:scale-125 transition-transform duration-900" href="#Portfolio">Portfolio</a>
@@ -30,7 +30,7 @@
         </div>
       </div>
 
-        <div class="flex md:hidden">
+        <div class="flex lg:hidden">
             <button id="hamburger-bnt" class="inline-flex mr-2 rounded-md text-white hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -43,10 +43,11 @@
 
     <!-- HOME -->
 
-    <div class="flex flex-col-reverse  lg:flex-row justify-between items-center gap-8 mb-16 p-10 sm:px-40 md:relative top-16">
+    <div class="flex flex-col-reverse  md:flex-row justify-between items-center lg:px-32 md:px-28 gap-8 mb-16 p-10 md:relative top-16">
+      
 
 
-<div class="lg:w-1/2 opacity-100 animate-fade-from-top">
+        <div class="lg:w-1/2 opacity-100 animate-fade-from-top">
   <h3 class=" text-lg font-medium mb-4 ">Hello, My Name Is</h3>
   <h2
     class="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight mb-6"
@@ -58,25 +59,25 @@
 
   <a href=""><button class="bg-[#cc892c] hover:bg-[#ad7628] rounded-2xl p-3 hover:ease-in-out hover:scale-105 transition-transform duration-700 w-[300px] md:w-auto">KNOW MORE</button></a>
   
-</div>
-<div
-  class="lg:w-1/2 opacity-0 animate-slide-from-left"
-  style="animation-delay: 0.3s"
->
-  <img
-    src="img/peter.jpg"
-    alt="Photo Of Peter"
-    class="w-[350px] md:w-[400px] h-[500px] max-w-lg mx-auto rounded-lg shadow-md "/>
-</div>
-</div>
-    </div> <br>
+          </div>
+      <div
+        class="lg:w-1/2 opacity-0 animate-slide-from-left"
+        style="animation-delay: 0.3s"
+      >
+        <img
+          src="img/peter.jpg"
+          alt="Photo Of Peter"
+          class="w-[350px] md:w-[400px] h-[500px] max-w-lg mx-auto rounded-lg shadow-md "/>
+      </div>
+      </div>
+          </div> <br>
     
 
 
 
    <!-- RESUME -->
 
-   <section class="bg-[#242323] md:px-28" id="resume">
+   <section class="bg-[#242323] md:w-[1148px] lg:w-auto  md:px-28" id="resume">
 
 
    <div class="md:flex gap-3 p-4">
@@ -135,41 +136,41 @@
 
       <!--  -->
 
-      <div class="md:flex gap-4">
+      <div class="md: lg:flex gap-4">
 
-      <div class="bg-[#1f1f1f] p-5 md:w-[390px]">
+      <div class="bg-[#1f1f1f] p-5 lg:w-[390px] md:w-[700px]">
         <div class="text-wrap text-center">
 
           <i class='bx bxs-pencil text-6xl' style='color:#cc892c'  ></i><br><br>
           <h1 class="font-semibold text-2xl">Creative Design</h1><br>
 
-          <p class="w-fit md:w-fit text-wrap text-center">
+          <p class="w-fit md:w-fit lg:w-fit text-wrap text-center">
             Bringing ideas to life with creativity and precision. Explore my world of stunning designs, 
             where innovation meets aesthetics.
           </p>
         </div>
       </div><br>
 
-      <div class="bg-[#1f1f1f] p-5 md:w-[390px]">
+      <div class="bg-[#1f1f1f] p-5 lg:w-[390px]  md:w-[700px]">
         <div class="text-wrap text-center">
 
           <i class='bx bxs-flag-alt text-6xl' style='color:#cc892c'  ></i><br><br>
           <h1 class="font-semibold text-2xl">Branding</h1><br>
 
-          <p class="w-fit md:w-fit  text-center">
+          <p class="w-fit md:w-fit lg:w-fit  text-center">
             Crafting impactful brand identities that leave a lasting impression.
              Let’s build a brand that stands out and speaks volumes!
           </p>
         </div>
       </div><br>
 
-      <div class="bg-[#1f1f1f] p-5 md:w-[390px]">
+      <div class="bg-[#1f1f1f] p-5 lg:w-[390px]  md:w-[700px]">
         <div class="text-wrap text-center">
 
           <i class='bx bx-laptop text-6xl' style='color:#cc892c'  ></i><br><br>
           <h1 class="font-semibold text-2xl">User Interface</h1><br>
 
-          <p class="w-fit md:w-fit  text-center">
+          <p class="w-fit md:w-fit lg:w-fit  text-center">
             Creating visually stunning and user-friendly interfaces 
             that make every interaction effortless and engaging.
           </p>
@@ -181,40 +182,40 @@
       <!-- ROW2 -->
 
 
-      <div class="md:flex gap-4">
+      <div class="md: lg:flex gap-4">
 
-        <div class="bg-[#1f1f1f] p-3  md:w-[390px]">
+        <div class="bg-[#1f1f1f] p-3  lg:w-[390px]  md:w-[700px]">
           <div class="text-wrap text-center">
   
             <i class='bx bxs-briefcase text-6xl' style='color:#cc892c'  ></i><br><br>
             <h1 class="font-semibold text-2xl">User Experience</h1><br>
   
-            <p class="w-fit md:w-fit  text-center">
+            <p class="w-fit md:w-fit lg:w-fit  text-center">
               Enhancing digital experiences with intuitive, 
               user-centered designs that make every interaction seamless and meaningful.
             </p>
           </div>
         </div><br>
   
-        <div class="bg-[#1f1f1f] p-5  md:w-[390px]">
+        <div class="bg-[#1f1f1f] p-5  lg:w-[390px]  md:w-[700px]">
           <div class="text-wrap text-center">
   
             <i class='bx bx-code-alt text-6xl' style='color:#cc892c'  ></i><br><br>
             <h1 class="font-semibold text-2xl">Clean Code</h1><br>
   
-            <p class="w-fit md:w-fit  text-center">
+            <p class="w-fit md:w-fit lg:w-fit  text-center">
               Writing clean, efficient, and maintainable code, because great software starts with a solid foundation.
             </p>
           </div>
         </div><br>
   
-        <div class="bg-[#1f1f1f] p-5  md:w-[390px]">
+        <div class="bg-[#1f1f1f] p-5  lg:w-[390px]  md:w-[700px]">
           <div class="text-wrap text-center">
   
             <i class='bx bx-support text-6xl' style='color:#cc892c'  ></i><br><br>
             <h1 class="font-semibold text-2xl">Fast Support</h1><br>
   
-            <p class="w-fit md:w-fit text-center">
+            <p class="w-fit md:w-fit lg:w-fit text-center">
               Reliable, responsive, and always ready. A fast support you can count on when it matters most.
             </p>
           </div>
@@ -245,8 +246,8 @@
 
     <section class="bg-[#2d2d2d]" id="contact">
 
-    <div class=" md:flex" >
-      <div class=" bg-[#cc892c] md:w-[350px] p-16  md:h-[490px] md:relative top-11 left-36">
+    <div class=" lg:flex" >
+      <div class=" bg-[#cc892c] lg:w-[350px] p-16  md:h-[490px] lg:relative top-11 left-36">
 
         <h1 class="text-2xl font-semibold">Contact Me</h1><br>
         <div class="flex gap-5 items-center">
@@ -273,10 +274,10 @@
 
       </div>
       
-      <div class="bg-white text-gray-800 p-5 md:w-[950px]">
-        <div class="md:relative left-[400px] md:py-6">
+      <div class="bg-white text-gray-800 p-5 lg:w-[950px]">
+        <div class="lg:relative left-[400px] md:py-6 md:px-5">
       <h1 class="text-3xl font-semibold md:text-5xl">Get in Touch</h1>
-      <span class="md:text-2xl">Feel free to drop us a message below!</span><br><br><br>
+      <span class=" md:text-2xl">Feel free to drop us a message below!</span><br><br><br>
       <input class=" h-[50px] w-[300px] md:w-[350px] p-2  border-black border-solid border-2" type="text" placeholder="Your Name"><br><br>
       <input class=" h-[50px] w-[300px] md:w-[350px] p-2 border-black border-solid border-2" type="email" name="" id="" placeholder="Your Email"><br><br>
       <textarea class=" h-[130px] w-[300px] md:w-[350px] p-2 border-black border-solid border-2" name="" id="" placeholder="Type your message here...."></textarea><br><br>
