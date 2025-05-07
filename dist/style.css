@@ -1237,3 +1237,8 @@ video {
     line-height: 1;
   }
 }
+
+#menu {
+  z-index: 50; 
+  position: absolute;
+}
